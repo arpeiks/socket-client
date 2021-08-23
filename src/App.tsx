@@ -1,12 +1,8 @@
-import "./App.css";
+import "./index.css";
+import Chat from "./chat";
 
 function App() {
-  return (
-    <div className="App">
-      <input />
-      <button>Send Message</button>
-    </div>
-  );
+  return <Chat />;
 }
 
 export default App;
